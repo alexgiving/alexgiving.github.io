@@ -47,7 +47,6 @@
       text-decoration: none;
       font-weight: 700;
       font-size: 11pt;
-      line-height: 23px;
     }
 
     .textstyle2 {
@@ -67,8 +66,18 @@
       font-weight: normal;
       text-decoration: none;
       font-size: 10pt;
-      margin: 0pt;
+      margin: 1pt;
       color: #ECECEC
+    }
+
+    .line {
+      color: #3A40E3;
+      background-color: #3A40E3;
+      width: 80%;
+      height: 1px;
+      border-radius: 5px;
+      border: #3A40E3;
+      opacity: 60%;
     }
 
     p {
@@ -102,7 +111,7 @@
           Location: Nizhniy Novgorod
         </p>
         <p class="textstyle3">
-          Phone number: +79158252134
+          Phone number: <a href="tel:+79158252134" class="textstyle3" target="_blank">+7(915)825-21-34</a>
         </p>
         <p class="textstyle3">
           Email: <a href="mailto:alexgiving@mail.ru" class="textstyle3" target="_blank"><u>alexgiving@mail.ru</u></a>
@@ -111,10 +120,11 @@
           GitHub: <a href="https://github.com/alexgiving" class="textstyle3" target="_blank"><u>@alexgiving</u></a>
         </p>
         <p class="textstyle3">
-          Telegram: @alexgiving
+          Telegram: <a href="https://t.me/alexgiving" class="textstyle3" target="_blank"><u>@alexgiving</u></a>
         </p>
         <p class="textstyle3">
-          LinkedIn: @atrutnev
+          LinkedIn: <a href="http://www.linkedin.com/in/atrutnev" class="textstyle3"
+            target="_blank"><u>@atrutnev</u></a>
         </p>
 
 
@@ -158,6 +168,8 @@
       <table style="width:100%">
         <!-- First workplace -->
         <tr>
+          <div class="line">
+          </div>
           <td style="width:15%">
             <!-- Job Info -->
             <p class="boldGenText" style="padding-top: 0pt;text-indent: 0pt;text-align: left;">
@@ -192,6 +204,7 @@
         <p class="AboutSkills">Education
         </p>
       </div>
+      <div class="line"></div>
       <table style="width:100%">
         <!-- First workplace -->
         <tr>
@@ -221,8 +234,11 @@
         <!-- Second workplace <tr>-->
       </table>
 
-      <br>
-      <p class="AboutSkills">Pet Project</p>
+      <div style="padding-top: 15pt">
+        <p class="AboutSkills">Pet Projects</p>
+      </div>
+
+      <div class="line"></div>
 
       <table style="width:100%">
         <!-- First workplace -->
